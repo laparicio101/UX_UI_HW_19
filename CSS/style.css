@@ -10,8 +10,7 @@
 }
 
 img[src="Images/Logocommit.png"] {
-    width: 90%;
-    height: 300px;
+    width: 100%;
 }
 
 nav {
@@ -19,52 +18,87 @@ nav {
     padding: 3%;
     text-align: right;
     font-size: 30px;
+    font-family: sans-serif;
 }
 ul {
     width: 80%;
     margin-left: auto;
 }
+
+li {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    }
+
+
+
 /* Hero  Styles */
 .heroImg {
     height: 800px;
     padding: 25px;
+    
 }
+
 .content {
-    width: 500px;
+    width: 90%;
     margin: auto;
+    position: absolute;
+    padding-left: 100px;
+    background: rgba(173,105, 174,.1);
+    height: 580px;
+
 
 }
 
-img[src="Images/Lizette.JPG"] {
-    width: 20%;
-    border-radius: 50%;
+img[src="Images/Lizette3.jpg"] {
+    position: absolute;
+    top: -50px;
+    right: 6%;
+    border-radius: 360px;
 
 }
 
 h1 {
     font-family: sans-serif;   
-    font-size: 40px;
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: sans-serif;   
+    font-size: 60px;
     color: #ad69ae;
     font-weight: bolder;
 }
+
+
+
 .content p { 
-    font-size: 35px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
-    text-align-last: justify;
+    padding-right: 490px;
+    
 }
 
 button {
     padding: 10px;
     font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #FFFFFF;
+    color: #F0914D;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1)
 }
 
 /* MyWork  Styles */
 
-h2 {
+h3 {
     text-align: center; 
-    padding: 50px;
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: bold;
     font-family: sans-serif;
 
 }
@@ -86,17 +120,26 @@ h2 {
     grid-area: palimage;
 }
 
-img[src="/Images/PalProject.jpg"] {
+img[src="Images/PalProject.jpg"] {
     width: 100%
 }
 
+.mywork button {
+    color: #ad69ae;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2)
+}
 
+.vertical-center button {
+    color: #F0914D;
+}
 
 .palcontent {
     grid-area: palcontent;
-    background: rgba(181,161, 141,.7);
+    background: rgba(240,145, 77,.5);
     padding-left: 50px;
     height: 524px;
+    font-size: 40px;
+    font-family: sans-serif;
 
 }
 
@@ -111,14 +154,18 @@ img[src="Images/DALA.JPG"] {
 
 .dalacontent {
     grid-area: dalacontent;
-    background: rgba(181,161, 141,.7);
+    background: rgba(240,145, 77,.5);
     padding-left: 50px;
     height: 524px;
+    font-size: 40px;
+    font-family: sans-serif;
     
 }
 
-h3 {
-    font-size: 35px;
+h4 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
     
 }
 
@@ -130,8 +177,10 @@ h3 {
     font-size: 25px;
 }
 
-h4 {
-    font-size: 35px;
+h5 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 
