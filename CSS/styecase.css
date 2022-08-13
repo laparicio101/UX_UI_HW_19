@@ -28,7 +28,7 @@ img[src="Images/Logocommit.png"] {
 /* Cover  Styles */
 .jumbotron {
     margin-top: 40px;
-    background-image: url('../images/43-Recovered.jpg');
+    background-image: url('../Images/43-Recovered.jpg');
     background-size: cover;
     background-position: right;
     height: 600px;
