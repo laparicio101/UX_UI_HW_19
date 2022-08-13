@@ -1,0 +1,184 @@
+
+
+/* Navigation  Styles */
+.inline-block {
+    display: inline-block;
+    vertical-align: top; 
+
+}
+.logo {
+    width: 20%;
+    padding: 1px;
+    
+}
+
+img[src="Images/Logocommit.png"] {
+    width: 100%;
+}
+
+
+.nav {
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+
+
+/* Cover  Styles */
+.jumbotron {
+    margin-top: 40px;
+    background-image: url('../images/43-Recovered.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+    font-family: sans-serif;
+    padding-left: 100px;
+    padding-right: 180px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    font-weight:bold
+
+}
+
+.lead {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.display-4 {
+    margin-top: 80%;
+}
+
+
+/* Content  Styles */
+
+p{
+    line-height: 40px;
+}
+.col {
+    background: rgba(240,145, 77,.3);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.projectoverview{
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+h2, h3, h4, h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.useresearch {
+    font-family: sans-serif;
+}
+
+
+img[src="images/Affinity Diagram.jpg"] {
+    width: 100%;
+}
+
+img[src="images/userpersona.jpg"] {
+    width: 100%;
+}
+
+img[src="images/Prototype.png"] {
+    width: 100%;
+}
+
+
+
+h6{ 
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+.definitionandsynthesis {
+    font-family: sans-serif;
+}
+
+h7 { 
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+h8, h9 { 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+
+.ideation {
+    font-family: sans-serif;
+}
+
+h10 { 
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+
+h11 { 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+h12 {
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+
+h13 { 
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+h14, h15, h17, h18 {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 50px;
+}
+
+h16 {
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 80px;
+}
+
+
+.prototyping { 
+    font-family: sans-serif;
+}
+
+.usertesting {
+    font-family: sans-serif;
+}
+
+ul {
+    line-height: 40px;
+}
+
+
+
+.conclusion {
+    font-family: sans-serif;
+}
